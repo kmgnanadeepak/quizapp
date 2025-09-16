@@ -12,372 +12,373 @@ export interface QuizCategory {
 export const quizData: Record<string, QuizCategory> = {
   sports: {
     football: [
-      {
-        id: "f1",
-        question: "Which country won the FIFA World Cup in 2018?",
-        options: ["Brazil", "Germany", "France", "Argentina"],
-        correctAnswer: 2
-      },
-      {
-        id: "f2",
-        question: "How many players are on a football team on the field at one time?",
-        options: ["10", "11", "12", "9"],
-        correctAnswer: 1
-      },
-      {
-        id: "f3",
-        question: "Which player has won the most Ballon d'Or awards?",
-        options: ["Cristiano Ronaldo", "Lionel Messi", "Michel Platini", "Johan Cruyff"],
-        correctAnswer: 1
-      },
-      {
-        id: "f4",
-        question: "In which year was the first FIFA World Cup held?",
-        options: ["1926", "1930", "1934", "1928"],
-        correctAnswer: 1
-      },
-      {
-        id: "f5",
-        question: "Which club has won the most UEFA Champions League titles?",
-        options: ["Barcelona", "AC Milan", "Real Madrid", "Liverpool"],
-        correctAnswer: 2
-      },
-      {
-        id: "f6",
-        question: "What is the maximum duration of a football match including extra time?",
-        options: ["90 minutes", "120 minutes", "105 minutes", "110 minutes"],
-        correctAnswer: 1
-      },
-      {
-        id: "f7",
-        question: "Which country has won the most FIFA World Cups?",
-        options: ["Germany", "Brazil", "Argentina", "Italy"],
-        correctAnswer: 1
-      },
-      {
-        id: "f8",
-        question: "What is the penalty area also known as?",
-        options: ["Goal box", "18-yard box", "Penalty box", "All of the above"],
-        correctAnswer: 3
-      },
-      {
-        id: "f9",
-        question: "Who is the all-time top scorer in FIFA World Cup history?",
-        options: ["Pelé", "Miroslav Klose", "Ronaldo", "Gerd Müller"],
-        correctAnswer: 1
-      },
-      {
-        id: "f10",
-        question: "Which Premier League team is known as 'The Red Devils'?",
-        options: ["Liverpool", "Arsenal", "Manchester United", "Chelsea"],
-        correctAnswer: 2
-      },
-      {
-        id: "f11",
-        question: "In which city is the famous Wembley Stadium located?",
-        options: ["Manchester", "Liverpool", "Birmingham", "London"],
-        correctAnswer: 3
-      },
-      {
-        id: "f12",
-        question: "What is the standard size of a football goal?",
-        options: ["8 yards × 8 feet", "8 yards × 8 yards", "7 yards × 8 feet", "6 yards × 8 feet"],
-        correctAnswer: 0
-      },
-      {
-        id: "f13",
-        question: "Which footballer is known as 'CR7'?",
-        options: ["Cristiano Ronaldo", "Carlos Riquelme", "Christian Ramirez", "Claudio Reyna"],
-        correctAnswer: 0
-      },
-      {
-        id: "f14",
-        question: "How many substitutions are allowed in a football match?",
-        options: ["3", "5", "7", "Unlimited"],
-        correctAnswer: 1
-      },
-      {
-        id: "f15",
-        question: "Which club does Kylian Mbappé currently play for?",
-        options: ["Barcelona", "Real Madrid", "PSG", "Liverpool"],
-        correctAnswer: 1
-      },
-      {
-        id: "f16",
-        question: "What is the offside rule in football?",
-        options: ["Player must be behind the ball", "Player must be behind last defender", "Player must be behind second-last opponent", "No restrictions"],
-        correctAnswer: 2
-      },
-      {
-        id: "f17",
-        question: "Which tournament is considered the most prestigious in European club football?",
-        options: ["Europa League", "Champions League", "Super Cup", "Conference League"],
-        correctAnswer: 1
-      },
-      {
-        id: "f18",
-        question: "What color card does a referee show for a serious foul?",
-        options: ["Yellow", "Red", "Green", "Blue"],
-        correctAnswer: 1
-      },
-      {
-        id: "f19",
-        question: "Which country hosted the 2022 FIFA World Cup?",
-        options: ["Russia", "Brazil", "Qatar", "Germany"],
-        correctAnswer: 2
-      },
-      {
-        id: "f20",
-        question: "What is the maximum number of players a team can have on the field?",
-        options: ["10", "11", "12", "9"],
-        correctAnswer: 1
-      }
-    ],
-    cricket: [
-      {
-        id: "c1",
-        question: "How many players are in a cricket team?",
-        options: ["10", "11", "12", "9"],
-        correctAnswer: 1
-      },
-      {
-        id: "c2",
-        question: "What is the maximum number of overs in a One Day International (ODI)?",
-        options: ["40", "45", "50", "60"],
-        correctAnswer: 2
-      },
-      {
-        id: "c3",
-        question: "Which country has won the most Cricket World Cups?",
-        options: ["India", "Australia", "England", "West Indies"],
-        correctAnswer: 1
-      },
-      {
-        id: "c4",
-        question: "What is the term for scoring 100 runs in cricket?",
-        options: ["Century", "Half-century", "Double", "Ton"],
-        correctAnswer: 0
-      },
-      {
-        id: "c5",
-        question: "Who holds the record for the highest individual score in Test cricket?",
-        options: ["Brian Lara", "Matthew Hayden", "Virender Sehwag", "Don Bradman"],
-        correctAnswer: 0
-      },
-      {
-        id: "c6",
-        question: "How many stumps are there in cricket?",
-        options: ["2", "3", "4", "6"],
-        correctAnswer: 1
-      },
-      {
-        id: "c7",
-        question: "What is the length of a cricket pitch?",
-        options: ["20 yards", "22 yards", "24 yards", "26 yards"],
-        correctAnswer: 1
-      },
-      {
-        id: "c8",
-        question: "Which format of cricket has 20 overs per side?",
-        options: ["Test", "ODI", "T20", "T10"],
-        correctAnswer: 2
-      },
-      {
-        id: "c9",
-        question: "What does LBW stand for in cricket?",
-        options: ["Leg Before Wicket", "Left Behind Wicket", "Low Ball Wicket", "Long Ball Wide"],
-        correctAnswer: 0
-      },
-      {
-        id: "c10",
-        question: "Which Indian cricketer is known as 'Captain Cool'?",
-        options: ["Virat Kohli", "Rohit Sharma", "MS Dhoni", "Sourav Ganguly"],
-        correctAnswer: 2
-      },
-      {
-        id: "c11",
-        question: "What is the maximum number of fielders allowed outside the 30-yard circle in ODI cricket?",
-        options: ["4", "5", "6", "7"],
-        correctAnswer: 1
-      },
-      {
-        id: "c12",
-        question: "Which country invented cricket?",
-        options: ["Australia", "India", "England", "South Africa"],
-        correctAnswer: 2
-      },
-      {
-        id: "c13",
-        question: "What is a hat-trick in cricket?",
-        options: ["3 runs in 3 balls", "3 wickets in 3 balls", "3 sixes in 3 balls", "3 catches in 3 balls"],
-        correctAnswer: 1
-      },
-      {
-        id: "c14",
-        question: "How many runs are awarded for hitting the ball over the boundary without bouncing?",
-        options: ["4", "5", "6", "8"],
-        correctAnswer: 2
-      },
-      {
-        id: "c15",
-        question: "Which cricket tournament is known as the 'Gentlemen's Game'?",
-        options: ["IPL", "World Cup", "The Ashes", "All cricket"],
-        correctAnswer: 3
-      },
-      {
-        id: "c16",
-        question: "What is the term for a ball that passes the batsman without touching the bat or body?",
-        options: ["Wide", "No-ball", "Bye", "Leg-bye"],
-        correctAnswer: 2
-      },
-      {
-        id: "c17",
-        question: "Which Australian cricketer is known as 'The Don'?",
-        options: ["Steve Smith", "Ricky Ponting", "Don Bradman", "Allan Border"],
-        correctAnswer: 2
-      },
-      {
-        id: "c18",
-        question: "What is the powerplay in ODI cricket?",
-        options: ["First 10 overs", "First 15 overs", "Last 10 overs", "Middle 10 overs"],
-        correctAnswer: 0
-      },
-      {
-        id: "c19",
-        question: "Which format of cricket can last up to 5 days?",
-        options: ["ODI", "T20", "Test", "T10"],
-        correctAnswer: 2
-      },
-      {
-        id: "c20",
-        question: "What is the minimum number of overs to constitute a match in ODI cricket?",
-        options: ["20", "25", "30", "35"],
-        correctAnswer: 0
-      }
-    ],
-    tennis: [
-      {
-        id: "t1",
-        question: "How many Grand Slam tournaments are there in tennis?",
-        options: ["3", "4", "5", "6"],
-        correctAnswer: 1
-      },
-      {
-        id: "t2",
-        question: "Who has won the most Grand Slam singles titles in men's tennis?",
-        options: ["Roger Federer", "Rafael Nadal", "Novak Djokovic", "Pete Sampras"],
-        correctAnswer: 2
-      },
-      {
-        id: "t3",
-        question: "What is the term for a score of 40-40 in tennis?",
-        options: ["Match point", "Deuce", "Advantage", "Break point"],
-        correctAnswer: 1
-      },
-      {
-        id: "t4",
-        question: "Which Grand Slam is played on clay courts?",
-        options: ["Wimbledon", "US Open", "French Open", "Australian Open"],
-        correctAnswer: 2
-      },
-      {
-        id: "t5",
-        question: "What is the maximum number of sets in a men's Grand Slam match?",
-        options: ["3", "4", "5", "6"],
-        correctAnswer: 2
-      },
-      {
-        id: "t6",
-        question: "What is the scoring system in tennis?",
-        options: ["0, 15, 30, 40", "1, 2, 3, 4", "0, 10, 20, 30", "5, 10, 15, 20"],
-        correctAnswer: 0
-      },
-      {
-        id: "t7",
-        question: "Which surface is Wimbledon played on?",
-        options: ["Clay", "Hard court", "Grass", "Carpet"],
-        correctAnswer: 2
-      },
-      {
-        id: "t8",
-        question: "Who holds the record for most Grand Slam singles titles in women's tennis?",
-        options: ["Serena Williams", "Steffi Graf", "Margaret Court", "Chris Evert"],
-        correctAnswer: 2
-      },
-      {
-        id: "t9",
-        question: "What is an ace in tennis?",
-        options: ["A perfect volley", "A serve that the opponent cannot return", "A winning backhand", "A double fault"],
-        correctAnswer: 1
-      },
-      {
-        id: "t10",
-        question: "How many games must a player win to take a set?",
-        options: ["4", "5", "6", "7"],
-        correctAnswer: 2
-      },
-      {
-        id: "t11",
-        question: "What is the height of a tennis net at the center?",
-        options: ["3 feet", "3.5 feet", "4 feet", "4.5 feet"],
-        correctAnswer: 0
-      },
-      {
-        id: "t12",
-        question: "Which player is known as 'The King of Clay'?",
-        options: ["Roger Federer", "Rafael Nadal", "Novak Djokovic", "Andy Murray"],
-        correctAnswer: 1
-      },
-      {
-        id: "t13",
-        question: "What does ATP stand for in tennis?",
-        options: ["Association of Tennis Professionals", "American Tennis Players", "All Tennis Pros", "Advanced Tennis Program"],
-        correctAnswer: 0
-      },
-      {
-        id: "t14",
-        question: "How many points are needed to win a tiebreak?",
-        options: ["6", "7", "8", "9"],
-        correctAnswer: 1
-      },
-      {
-        id: "t15",
-        question: "Which Grand Slam is played on hard courts?",
-        options: ["French Open", "Wimbledon", "US Open", "All of them"],
-        correctAnswer: 2
-      },
-      {
-        id: "t16",
-        question: "What is a double fault in tennis?",
-        options: ["Missing two volleys", "Two consecutive service faults", "Hitting the net twice", "Double hitting the ball"],
-        correctAnswer: 1
-      },
-      {
-        id: "t17",
-        question: "Who was the youngest player to win a Grand Slam?",
-        options: ["Martina Hingis", "Monica Seles", "Steffi Graf", "Maria Sharapova"],
-        correctAnswer: 1
-      },
-      {
-        id: "t18",
-        question: "What is the Davis Cup in tennis?",
-        options: ["Women's team competition", "Men's team competition", "Mixed doubles tournament", "Junior championship"],
-        correctAnswer: 1
-      },
-      {
-        id: "t19",
-        question: "How long is a tennis court?",
-        options: ["78 feet", "84 feet", "90 feet", "96 feet"],
-        correctAnswer: 0
-      },
-      {
-        id: "t20",
-        question: "What is a bagel in tennis?",
-        options: ["A type of serve", "Winning a set 6-0", "A tennis snack", "A doubles strategy"],
-        correctAnswer: 1
-      }
-    ]
+        {
+          "id": "f1",
+          "question": "Which country won the FIFA World Cup in 2018?",
+          "options": ["Brazil", "Germany", "France", "Argentina"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "f2",
+          "question": "How many players are on a football team on the field at one time?",
+          "options": ["10", "11", "12", "9"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "f3",
+          "question": "Which player has won the most Ballon d'Or awards?",
+          "options": ["Cristiano Ronaldo", "Lionel Messi", "Michel Platini", "Johan Cruyff"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "f4",
+          "question": "In which year was the first FIFA World Cup held?",
+          "options": ["1926", "1930", "1934", "1928"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "f5",
+          "question": "Which club has won the most UEFA Champions League titles?",
+          "options": ["Barcelona", "AC Milan", "Real Madrid", "Liverpool"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "f6",
+          "question": "What is the maximum duration of a football match including extra time?",
+          "options": ["90 minutes", "120 minutes", "105 minutes", "110 minutes"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "f7",
+          "question": "Which country has won the most FIFA World Cups?",
+          "options": ["Germany", "Brazil", "Argentina", "Italy"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "f8",
+          "question": "What is the penalty area also known as?",
+          "options": ["Goal box", "18-yard box", "Penalty box", "All of the above"],
+          "correctAnswer": 3
+        },
+        {
+          "id": "f9",
+          "question": "Who is the all-time top scorer in FIFA World Cup history?",
+          "options": ["Pelé", "Miroslav Klose", "Ronaldo", "Gerd Müller"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "f10",
+          "question": "Which Premier League team is known as 'The Red Devils'?",
+          "options": ["Liverpool", "Arsenal", "Manchester United", "Chelsea"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "f11",
+          "question": "In which city is the famous Wembley Stadium located?",
+          "options": ["Manchester", "Liverpool", "Birmingham", "London"],
+          "correctAnswer": 3
+        },
+        {
+          "id": "f12",
+          "question": "What is the standard size of a football goal?",
+          "options": ["8 yards × 8 feet", "8 yards × 8 yards", "7 yards × 8 feet", "6 yards × 8 feet"],
+          "correctAnswer": 0
+        },
+        {
+          "id": "f13",
+          "question": "Which footballer is known as 'CR7'?",
+          "options": ["Cristiano Ronaldo", "Carlos Riquelme", "Christian Ramirez", "Claudio Reyna"],
+          "correctAnswer": 0
+        },
+        {
+          "id": "f14",
+          "question": "How many substitutions are allowed in a football match?",
+          "options": ["3", "5", "7", "Unlimited"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "f15",
+          "question": "Which club does Kylian Mbappé currently play for?",
+          "options": ["Barcelona", "Real Madrid", "PSG", "Liverpool"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "f16",
+          "question": "What is the offside rule in football?",
+          "options": ["Player must be behind the ball", "Player must be behind last defender", "Player must be behind second-last opponent", "No restrictions"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "f17",
+          "question": "Which tournament is considered the most prestigious in European club football?",
+          "options": ["Europa League", "Champions League", "Super Cup", "Conference League"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "f18",
+          "question": "What color card does a referee show for a serious foul?",
+          "options": ["Yellow", "Red", "Green", "Blue"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "f19",
+          "question": "Which country hosted the 2022 FIFA World Cup?",
+          "options": ["Russia", "Brazil", "Qatar", "Germany"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "f20",
+          "question": "What is the maximum number of players a team can have on the field?",
+          "options": ["10", "11", "12", "9"],
+          "correctAnswer": 1
+        }
+      ],
+      "cricket": [
+        {
+          "id": "c1",
+          "question": "How many players are in a cricket team?",
+          "options": ["10", "11", "12", "9"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "c2",
+          "question": "What is the maximum number of overs in a One Day International (ODI)?",
+          "options": ["40", "45", "50", "60"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "c3",
+          "question": "Which country has won the most Cricket World Cups?",
+          "options": ["India", "Australia", "England", "West Indies"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "c4",
+          "question": "What is the term for scoring 100 runs in cricket?",
+          "options": ["Century", "Half-century", "Double", "Ton"],
+          "correctAnswer": 0
+        },
+        {
+          "id": "c5",
+          "question": "Who holds the record for the highest individual score in Test cricket?",
+          "options": ["Brian Lara", "Matthew Hayden", "Virender Sehwag", "Don Bradman"],
+          "correctAnswer": 0
+        },
+        {
+          "id": "c6",
+          "question": "How many stumps are there in cricket?",
+          "options": ["2", "3", "4", "6"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "c7",
+          "question": "What is the length of a cricket pitch?",
+          "options": ["20 yards", "22 yards", "24 yards", "26 yards"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "c8",
+          "question": "Which format of cricket has 20 overs per side?",
+          "options": ["Test", "ODI", "T20", "T10"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "c9",
+          "question": "What does LBW stand for in cricket?",
+          "options": ["Leg Before Wicket", "Left Behind Wicket", "Low Ball Wicket", "Long Ball Wide"],
+          "correctAnswer": 0
+        },
+        {
+          "id": "c10",
+          "question": "Which Indian cricketer is known as 'Captain Cool'?",
+          "options": ["Virat Kohli", "Rohit Sharma", "MS Dhoni", "Sourav Ganguly"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "c11",
+          "question": "What is the maximum number of fielders allowed outside the 30-yard circle in ODI cricket?",
+          "options": ["4", "5", "6", "7"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "c12",
+          "question": "Which country invented cricket?",
+          "options": ["Australia", "India", "England", "South Africa"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "c13",
+          "question": "What is a hat-trick in cricket?",
+          "options": ["3 runs in 3 balls", "3 wickets in 3 balls", "3 sixes in 3 balls", "3 catches in 3 balls"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "c14",
+          "question": "How many runs are awarded for hitting the ball over the boundary without bouncing?",
+          "options": ["4", "5", "6", "8"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "c15",
+          "question": "Which Test series is contested between England and Australia?",
+          "options": ["Border-Gavaskar Trophy", "The Ashes", "Trans-Tasman Trophy", "Pataudi Trophy"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "c16",
+          "question": "What is the term for a ball that passes the batsman without touching the bat or body?",
+          "options": ["Wide", "No-ball", "Bye", "Leg-bye"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "c17",
+          "question": "Which Australian cricketer is known as 'The Don'?",
+          "options": ["Steve Smith", "Ricky Ponting", "Don Bradman", "Allan Border"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "c18",
+          "question": "What is the powerplay in ODI cricket?",
+          "options": ["First 10 overs", "First 15 overs", "Last 10 overs", "Middle 10 overs"],
+          "correctAnswer": 0
+        },
+        {
+          "id": "c19",
+          "question": "Which format of cricket can last up to 5 days?",
+          "options": ["ODI", "T20", "Test", "T10"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "c20",
+          "question": "What is the minimum number of overs to constitute a match in ODI cricket?",
+          "options": ["20", "25", "30", "35"],
+          "correctAnswer": 0
+        }
+      ],
+      "tennis": [
+        {
+          "id": "t1",
+          "question": "How many Grand Slam tournaments are there in tennis?",
+          "options": ["3", "4", "5", "6"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "t2",
+          "question": "Who has won the most Grand Slam singles titles in men's tennis?",
+          "options": ["Roger Federer", "Rafael Nadal", "Novak Djokovic", "Pete Sampras"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "t3",
+          "question": "What is the term for a score of 40-40 in tennis?",
+          "options": ["Match point", "Deuce", "Advantage", "Break point"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "t4",
+          "question": "Which Grand Slam is played on clay courts?",
+          "options": ["Wimbledon", "US Open", "French Open", "Australian Open"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "t5",
+          "question": "What is the maximum number of sets in a men's Grand Slam match?",
+          "options": ["3", "4", "5", "6"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "t6",
+          "question": "What is the scoring system in tennis?",
+          "options": ["0, 15, 30, 40", "1, 2, 3, 4", "0, 10, 20, 30", "5, 10, 15, 20"],
+          "correctAnswer": 0
+        },
+        {
+          "id": "t7",
+          "question": "Which surface is Wimbledon played on?",
+          "options": ["Clay", "Hard court", "Grass", "Carpet"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "t8",
+          "question": "Who holds the record for most Grand Slam singles titles in women's tennis?",
+          "options": ["Serena Williams", "Steffi Graf", "Margaret Court", "Chris Evert"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "t9",
+          "question": "What is an ace in tennis?",
+          "options": ["A perfect volley", "A serve that the opponent cannot return", "A winning backhand", "A double fault"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "t10",
+          "question": "How many games must a player win to take a set?",
+          "options": ["4", "5", "6", "7"],
+          "correctAnswer": 2
+        },
+        {
+          "id": "t11",
+          "question": "What is the height of a tennis net at the center?",
+          "options": ["3 feet", "3.5 feet", "4 feet", "4.5 feet"],
+          "correctAnswer": 0
+        },
+        {
+          "id": "t12",
+          "question": "Which player is known as 'The King of Clay'?",
+          "options": ["Roger Federer", "Rafael Nadal", "Novak Djokovic", "Andy Murray"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "t13",
+          "question": "What does ATP stand for in tennis?",
+          "options": ["Association of Tennis Professionals", "American Tennis Players", "All Tennis Pros", "Advanced Tennis Program"],
+          "correctAnswer": 0
+        },
+        {
+          "id": "t14",
+          "question": "How many points are needed to win a tiebreak?",
+          "options": ["6", "7", "8", "9"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "t15",
+          "question": "Which Grand Slams are played on hard courts?",
+          "options": ["Australian Open and US Open", "French Open and Wimbledon", "US Open only", "All four"],
+          "correctAnswer": 0
+        },
+        {
+          "id": "t16",
+          "question": "What is a double fault in tennis?",
+          "options": ["Missing two volleys", "Two consecutive service faults", "Hitting the net twice", "Double hitting the ball"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "t17",
+          "question": "Who was the youngest player to win a Grand Slam?",
+          "options": ["Martina Hingis", "Monica Seles", "Steffi Graf", "Maria Sharapova"],
+          "correctAnswer": 0
+        },
+        {
+          "id": "t18",
+          "question": "What is the Davis Cup in tennis?",
+          "options": ["Women's team competition", "Men's team competition", "Mixed doubles tournament", "Junior championship"],
+          "correctAnswer": 1
+        },
+        {
+          "id": "t19",
+          "question": "How long is a tennis court?",
+          "options": ["78 feet", "84 feet", "90 feet", "96 feet"],
+          "correctAnswer": 0
+        },
+        {
+          "id": "t20",
+          "question": "What is a bagel in tennis?",
+          "options": ["A type of serve", "Winning a set 6-0", "A tennis snack", "A doubles strategy"],
+          "correctAnswer": 1
+        }
+      ]
   },
+  
   movies: {
     english: [
       {
@@ -632,8 +633,8 @@ export const quizData: Record<string, QuizCategory> = {
       },
       {
         id: "ta2",
-        question: "Which Tamil movie won the National Film Award for Best Feature Film in 2018?",
-        options: ["Baahubali 2", "Mersal", "Aramm", "Vivegam"],
+        question: "Which Tamil film won Best Feature Film in Tamil at the 65th National Film Awards (2018)?",
+        options: ["Aramm", "Mersal", "To Let", "Vivegam"],
         correctAnswer: 2
       },
       {
@@ -656,8 +657,8 @@ export const quizData: Record<string, QuizCategory> = {
       },
       {
         id: "ta6",
-        question: "Which Tamil movie was India's official entry to the Oscars in 2023?",
-        options: ["RRR", "Ponniyin Selvan", "Vikram", "PS-1"],
+        question: "Which Indian film was India's official entry to the 95th Academy Awards (2023)?",
+        options: ["RRR", "Chhello Show", "Kantara", "PS-1"],
         correctAnswer: 1
       },
       {
@@ -1304,9 +1305,9 @@ export const quizData: Record<string, QuizCategory> = {
       },
       {
         id: "js12",
-        question: "What is closure in JavaScript?",
-        options: ["Function inside function", "Variable scope", "Memory management", "All of the above"],
-        correctAnswer: 3
+        question: "What is a closure in JavaScript?",
+        options: ["Function with preserved lexical scope", "Block scope", "Prototype chain", "Garbage collection"],
+        correctAnswer: 0
       },
       {
         id: "js13",
